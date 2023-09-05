@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatiable" content="IE edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+           <div class="container">
+             <nav>
+           <img src="imageslogo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Awards">Awards</a></li>
+           <li><a href="# Contact">Contact</a></li>
+           <i class="fas fa-times"onclick="closemenu()"></i>
+           </ul>
+         <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header.txt">
+            <p> Python developer</p>
+            <h1>Hi, i am <span>Jeba Joshua from Chennai</span><br></h1>
+
+        </div>
+        </div>
+    </div>
+    <!-- --------------about------------------ -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                    <img src="image2.png.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something 
+                            to strive towards. I am not comfortable with settling, and I am always looking for an opportunity to do 
+                            better and achieve greatness.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        </p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>python</span><br>designing web/app interfaces</li>
+                            <li><span>Django</span><br>Framework web/app interfaces</li>
+                            
+                            <li><span>Html5</span><br>designing web/app interfaces</li>
+                            <li><span>Css</span><br>designing web/app interfaces</li>
+                            <li><span>Javascript</span><br>designing web/app interfaces</li>
+                            <li><span>Git&hub</span><br>designing web/app interfaces</li>
+                            
+                        </ul>
+                    </div>
+                    
+                   
+    </div>
+    </div>
+     </div>
+   </div>
+   <!-- ----------------Education------------ -->
+   <div id="Education">
+    <div class="container">
+        <h1 class="sub-title">My Education</h1>
+        <div class="Education-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>10th standard </h2>
+                <p>Percentage obtained in 10th standard : 83.6.</p>
+                </div>
+               
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>12th standard</h2>
+                <p>Group: COMPUTER SCIENCE
+                   --Percentage obtained in 12th standard : 64.</p>
+                  
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Bachelors degree</h2>
+                <p> Bachelors in Mechanical Engineering
+                    --CGPA obtained in college : 8.5.</p>  
+                       
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- -----------------potfolio------------ --> 
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Awards</h1> 
+            <div class="Awards-list">
+                <div class="work">
+                    <img src="images2.png.jpeg"><br>
+                    <div class="layer">
+                        <h3><em>PREPINSTA PRIME(PYTHON)</em></h3>
+                    </div>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                </div>
+                <div class="work">
+                    <img src="WhatsApp Image 2023-08-28 at 3.09.44 PM.jpeg"><br>
+                    <div class="layer">
+                        <h3><em>ACMEGRADE WEB DEVELOPMENT</em></h3>
+                    </div>
+                    
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    
+                </div>
+
+                <div class="work">
+                    <img src="WhatsApp Image 2023-08-28 at 3.09.54 PM.jpeg"><br>
+                    <div class="layer">
+                        <h3><em>HACKERRANK CODING CHALLENGE</em></h3>
+                    </div>
+                    
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                    
+                </div>
+            </div>
+        
+            
+            </div>
+        </div>
+   </div>
+    <!-- -----------------contact------------ --> 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>livingstonjosh27@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>6374526731</p>
+            <div class="social-icons">
+            <a href="https://instagram.com/jeba_joshua_solomon?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a>
+             <a href="https://www.linkedin.com/in/jose-jeba-567701273"><i class="fab fa-linkedin"></i></a>
+             <a href="https://www.hackerrank.com/livingstonjosh27?hr_r=1"><i class="fab fa-hackerrank"></i></a>
+                </div>
+                <a href="resumej.pdf.pdf" download class="btn btn2">download Cv</a>
+                </div>
+                
+            
+            </div>
+           <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="your name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <input type="Message" name="Message" placeholder="your Message" required>
+                <button type="submit" class="btn btn2">submit</button>
+
+            </form>
+            <spam id="msg">livingstonjosh27</spam>
+
+                     </div>
+    
+        </div>
+        </div>
+        <div class="copyright">
+            <p><strong>copyright&copy</strong> Made with<i class="fas fa-heart"></i>by easy tutorials</p>
+        </div>
+    </div>
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remov("active-tab");
+      }
+      event.currentTarget.class.add("active-link")
+document.getElementsByid(tabname).classlist.add
+        }
+    
+     </script>
+     <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+     </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw3MKyWPHVxGKmIvCxFUiVwj2ndS9SdmC3Smw8aybRwrQpQ9UnBhgUguAkQIW3pHjOS/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+                msg.innerHTML = "Message sent successfully"})
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
